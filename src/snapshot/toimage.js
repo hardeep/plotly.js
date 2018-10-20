@@ -21,7 +21,7 @@ var svgToImg = require('./svgtoimg');
 /**
  * @param {object} gd figure Object
  * @param {object} opts option object
- * @param opts.format 'jpeg' | 'png' | 'webp' | 'svg'
+ * @param opts.format {'jpeg' | 'png' | 'webp' | 'svg'}
  */
 function toImage(gd, opts) {
 
